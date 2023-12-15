@@ -133,16 +133,19 @@ button:hover {
   margin-bottom: 20px;
 }
 
-.rocket-section {
+.rockets-section {
   margin: 100px 20px;
+  border: 1px solid #e4dede;
 }
 .rocket {
   margin: 20px;
+  height: 600px;
   display: flex;
+  border: 1px solid #e4dede;
 }
 
 .rocket-details {
-  margin: 80px 20px;
+  margin: 80px 40px;
   position: relative;
 }
 

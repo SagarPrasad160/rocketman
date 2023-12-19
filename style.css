@@ -1,4 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;600;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;600;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
@@ -170,11 +174,45 @@ button:hover {
   bottom: 0;
 }
 
-.rocket-desc #h1 {
+#h1 {
   font-size: 2rem;
   font-weight: 900;
 }
-.rocket-desc #h2 {
+#h2 {
   font-size: 1.5rem;
   font-weight: 600;
+}
+
+.bg-purple {
+  background-color: #814ebf;
+  color: white;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 40px;
+  font-size: 20px;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+footer .links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer .link-title {
+  color: #333;
+  font-size: 25px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
 }
